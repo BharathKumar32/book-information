@@ -1,0 +1,452 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+}
+.cover {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #2c5282, #2b6cb0);
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.top-banner {
+  display: flex;
+  justify-content: space-between;
+  background: #1a202c;
+  color: #f7fafc;
+  padding: 8px 12px;
+  font-size: 0.9em;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.title-section h1 {
+  margin: 10px 0;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.title-section .highlight {
+  font-size: 2.5em;
+  color: #fbd38d;
+}
+
+.title-section h2 {
+  margin: 5px 0;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #cbd5e0;
+}
+
+.title-section .question-bank {
+  font-size: 2.8em;
+  letter-spacing: 2px;
+  margin: 15px 0;
+  color: #fff;
+  text-shadow: 2px 2px #2d3748;
+}
+
+.title-section .sub {
+  font-size: 1.1em;
+  margin-top: 10px;
+  color: #edf2f7;
+}
+
+.class-box {
+  display: inline-flex;
+  margin: 25px 0;
+  border: 3px solid #fff;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.class-box .class {
+  background: #fff;
+  color: #2c5282;
+  padding: 12px 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.class-box .subject {
+  background: #2c5282;
+  color: #fff;
+  padding: 12px 25px;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.syllabus-note {
+  font-size: 0.95em;
+  color: #e2e8f0;
+  margin: 10px 0;
+}
+
+.footer-note {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #fff;
+  display: inline-block;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #444;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.isbn h2 {
+  margin-top: 15px;
+  font-size: 1.2em;
+}
+
+.syllabus {
+  margin-top: 20px;
+}
+
+.syllabus .tag {
+  background: #555;
+  color: #fff;
+  display: inline-block;
+  padding: 6px 12px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 0.95em;
+  border-left: 4px solid #444;
+  padding-left: 10px;
+}
+
+.curated {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.published {
+  margin-top: 20px;
+}
+
+.disclaimer {
+  margin-top: 30px;
+  background: #eee;
+  padding: 15px;
+  border-left: 5px solid #666;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #555;
+}
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  line-height: 1.6;
+  color: #222;
+}
+
+.page {
+  max-width: 800px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 25px 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 6px;
+}
+
+.header {
+  background: #f6c744;
+  text-align: center;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #222;
+}
+
+ul {
+  margin: 10px 0 20px 25px;
+}
+
+ol {
+  margin: 10px 0 20px 25px;
+}
+
+.quote {
+  font-style: italic;
+  margin: 20px 0;
+  padding-left: 15px;
+  border-left: 4px solid #444;
+  color: #444;
+}
+
+.closing {
+  margin-top: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Georgia', serif;
+    line-height: 1.5;
+    background: #f9f9f7;
+    color: #1a1a1a;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    border-bottom: 3px solid #333;
+    padding-bottom: 10px;
+    color: #111;
+  }
+  .intro-list {
+    margin-bottom: 30px;
+    color: #222;
+    font-size: 1rem;
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  .intro-list li {
+    margin-bottom: 6px;
+  }
+  .content-columns {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    font-size: 0.95rem;
+  }
+  .column {
+    flex: 1 1 45%;
+    min-width: 320px;
+  }
+  .section {
+    margin-bottom: 25px;
+  }
+  .section > strong {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2px;
+    color: #333;
+  }
+  .topic {
+    margin-left: 15px;
+    margin-bottom: 8px;
+  }
+  .topic strong {
+    font-weight: 600;
+  }
+  .topic span.page-range {
+    float: right;
+    font-style: italic;
+    font-weight: 600;
+  }
+  .part-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 10px 0 10px 0;
+    border-top: 2px solid #999;
+    padding-top: 6px;
+    color: #222;
+  }
+  /* Model Question Paper styling */
+  .model-papers {
+    margin-top: 15px;
+    list-style-type: disc;
+    margin-left: 40px;
+  }
+  .model-papers li {
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  /* Page footer */
+  footer {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+    margin-top: 50px;
+    font-size: 0.9rem;
+  }
+  /* Responsive */
+  @media(max-width: 700px) {
+    .content-columns {
+      flex-direction: column;
+    }
+    .column {
+      min-width: 100%;
+    }
+  }
+  h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+h2, h3 {
+    text-align: center;
+    font-size: 18px;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+.tala {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #000000;
+    width: fit-content;
+   margin-left: 250px;
+   margin-right: 200px;
+}
+
+.tala h4 {
+    margin-top: 0;
+    }
+
+.qr-code {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000000;
+    margin: 10px;
+}
+
+/* Add some basic styling for the QR code */
+.qr-code img {
+    width: 100%;
+    height: 100%;
+}
+.syllabus-update-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #000000;
+    width: fit-content;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.syllabus-update-container h4 {
+    margin-top: 0;
+}
+
+.qr-code-container {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000000;
+    margin: 10px;
+}
+
+.qr-code-container img {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+}
+
+.states-container, .distributors-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.state-column, .distributor-column {
+    width: 25%;
+    margin: 10px;
+    }
+
+h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 14px;
+    margin-left: 10px;
+}
+.distributors-container{
+    padding-left: 400px;
+}
+.state-column{
+ padding-left: 350px;
+ 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
